@@ -49,12 +49,6 @@ feature -- Access
 			Result := target.item
 		end
 
-	index_set: INTEGER_INTERVAL
-			-- <Precursor>
-		do
-			create Result.make(1, count)
-		end
-
 	i_th alias "[]" (i: INTEGER): G
 			-- <Precursor>
 		do
@@ -76,6 +70,18 @@ feature -- Access
 		end
 
 feature -- Measurement
+
+	lower: INTEGER
+			-- <Precursor>
+		do
+			Result := 1
+		end
+
+	upper: INTEGER
+			-- <Precursor>
+		do
+			Result := count
+		end
 
 	count : INTEGER
 			-- <Precursor>

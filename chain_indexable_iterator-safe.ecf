@@ -11,6 +11,7 @@
 			<file_rule>
 				<exclude>/EIFGENs$</exclude>
 				<exclude>/tests$</exclude>
+				<exclude>/.git$</exclude>
 			</file_rule>
 		</cluster>
 	</target>
