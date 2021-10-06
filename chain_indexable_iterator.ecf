@@ -8,7 +8,7 @@
 		</option>
 		<capability>
 			<concurrency support="none"/>
-			<void_safety support="all" use="none"/>
+			<void_safety support="all" use="all"/>
 		</capability>
 		<library name="base" location="$ISE_LIBRARY/library/base/base.ecf"/>
 		<cluster name="chain_indexable_iterator" location=".\" recursive="true">
